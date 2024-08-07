@@ -1,0 +1,259 @@
+{
+  "identifier" : "8D1351C3",
+  "nonRenewingSubscriptions" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "F510D6BA",
+      "localizations" : [
+        {
+          "description" : "Standard 1 Year Access",
+          "displayName" : "Standard 1 Year Access",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "nonrenewing.standard",
+      "referenceName" : "Standard",
+      "type" : "NonRenewingSubscription"
+    }
+  ],
+  "products" : [
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "A2B20C63",
+      "localizations" : [
+        {
+          "description" : "A standard five-seater",
+          "displayName" : "Car",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "nonconsumable.car",
+      "referenceName" : "Car",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "D670BD81",
+      "localizations" : [
+        {
+          "description" : "Off-road vehicle",
+          "displayName" : "Sport Utility Vehicle",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "nonconsumable.utilityvehicle",
+      "referenceName" : "Sport Utility Vehicle",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "42A35DD9",
+      "localizations" : [
+        {
+          "description" : "High speed accelaration",
+          "displayName" : "Race Car",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "nonconsumable.racecar",
+      "referenceName" : "Race Car",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "75D79562",
+      "localizations" : [
+        {
+          "description" : "Octane grade 87",
+          "displayName" : "Fuel87",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "consumable.fuel.octane87",
+      "referenceName" : "Fuel87",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "25A64DDD",
+      "localizations" : [
+        {
+          "description" : "Octane grade 89",
+          "displayName" : "Fuel89",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "consumable.fuel.octane89",
+      "referenceName" : "Fuel89",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "207E74E0",
+      "localizations" : [
+        {
+          "description" : "Octane grade 91",
+          "displayName" : "Fuel91",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "consumable.fuel.octane91",
+      "referenceName" : "Fuel91",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "0D941E76",
+      "localizations" : [
+
+      ],
+      "name" : "Software Services",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "ABBE9BCA",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Navigation assistance",
+              "displayName" : "Standard",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "subscription.standard",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "standard",
+          "subscriptionGroupID" : "0D941E76",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "3.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "A99D49AD",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Navigation assistance and dash cam",
+              "displayName" : "Premium",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "subscription.premium",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "premium",
+          "subscriptionGroupID" : "0D941E76",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "A3BD0931",
+          "introductoryOffer" : {
+            "displayPrice" : "1.99",
+            "internalID" : "B9E2F217",
+            "paymentMode" : "payUpFront",
+            "subscriptionPeriod" : "P2M"
+          },
+          "localizations" : [
+            {
+              "description" : "Navigation assistance, dash cam & auto pilot",
+              "displayName" : "Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "subscription.pro",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "pro",
+          "subscriptionGroupID" : "0D941E76",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
